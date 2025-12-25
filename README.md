@@ -1,32 +1,35 @@
 # Kalkylator
 
-En enkel funksjonell kalkylator skrevet i Python.
+En avansert kalkulator skrevet i Python med menybasert grensesnitt.
 
 ## Bruk
 
-Kjør kalkylatoren:
+Kjør kalkulatoren:
 
 ```bash
 python3 calculator.py
 ```
 
-Følg instruksjonene for å velge operasjon og skrive inn tall. Du kan utføre flere beregninger i en økt ved å velge 'y' når du blir spurt om å gjøre en annen beregning.
+Følg instruksjonene for å velge operasjon fra menyen og skrive inn tall. Programmet kjører i en løkke til du velger å avslutte.
 
 ## Eksempel
 
-For å addere 1 + 1 og deretter subtrahere 5 - 3:
+For å addere 1 + 1, deretter beregne 2^3, og så kvadratrot av 9:
 
 1. Kjør `python3 calculator.py`
 2. Velg operasjon: Skriv inn `1` for Addisjon
 3. Skriv inn første tall: `1`
 4. Skriv inn andre tall: `1`
 5. Utdata: `1.0 + 1.0 = 2.0`
-6. Gjør en annen beregning? Skriv inn `y`
-7. Velg operasjon: Skriv inn `2` for Subtraksjon
-8. Skriv inn første tall: `5`
-9. Skriv inn andre tall: `3`
-10. Utdata: `5.0 - 3.0 = 2.0`
-11. Gjør en annen beregning? Skriv inn `n` for å avslutte
+6. Velg operasjon: Skriv inn `5` for Potens
+7. Skriv inn grunnverdi: `2`
+8. Skriv inn eksponent: `3`
+9. Utdata: `2.0 ^ 3.0 = 8.0`
+10. Velg operasjon: Skriv inn `6` for Kvadratrot
+11. Skriv inn tall: `9`
+12. Utdata: `Kvadratrot av 9.0 = 3.0`
+13. Velg operasjon: Skriv inn `7` for Avslutt
+14. Utdata: `Takk for at du brukte kalkulatoren!`
 
 ## Funksjoner
 
@@ -34,3 +37,5 @@ For å addere 1 + 1 og deretter subtrahere 5 - 3:
 - Subtraksjon
 - Multiplikasjon
 - Divisjon (med sjekk for divisjon med null)
+- Potens (x^y)
+- Kvadratrot (med sjekk for negative tall)
