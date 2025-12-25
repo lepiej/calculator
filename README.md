@@ -2,6 +2,19 @@
 
 En avansert kalkulator skrevet i Python med menybasert grensesnitt.
 
+## Krav
+
+- Python 3.x
+- Bruker `math` modulen som er inkludert i Python standardbibliotek (ingen ekstra installasjon nødvendig)
+
+## Installasjon
+
+For å installere Python, følg instruksjonene på [python.org](https://www.python.org/downloads/).
+
+Last ned og installer Python 3 fra den offisielle nettsiden. Sørg for at `python3` er tilgjengelig i kommandolinjen.
+
+Modulen `math` er en del av Python standardbibliotek og krever ingen ekstra installasjon. Hvis programmet skulle bruke eksterne moduler, kan de installeres med `pip install <modulnavn>`.
+
 ## Bruk
 
 Kjør kalkulatoren:
